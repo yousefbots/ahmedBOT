@@ -343,11 +343,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-	 var prefix = "b!"
+	 var prefix = "="
             if (message.content.startsWith(prefix + "help")) {
      let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
-.addField('     **البريفكس [$help] ** ')
+.addField('     **البريفكس [=help] ** ')
 .addField('     **(1)-=play** ' ,' **تفتح موسيقي** ')
 .addField('     **(2)-=skip**  ' ,' **تحول للاغنيه البعدها** ')
 .addField('     **(3)-=stop** ' , '**تخرج البوت من الروم**') 
